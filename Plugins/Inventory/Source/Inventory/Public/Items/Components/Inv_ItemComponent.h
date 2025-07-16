@@ -7,7 +7,7 @@
 #include "Inv_ItemComponent.generated.h"
 
 
-UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
+UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
 class INVENTORY_API UInv_ItemComponent : public UActorComponent
 {
 	GENERATED_BODY()
